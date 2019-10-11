@@ -7,9 +7,37 @@ body {
 #header {
     background-color: gray;
     color: white;
+    text-align: center;
 }
 
 #first-main {
-    background-color: rgb(228, 224, 224);
+    background-color: rgb(192, 190, 190);
+    color: blue;
+    text-align: center;
+    border-style: inset;
+    border-width: 6px;
+    border-left: 6px solid gray;
+}
 
+#ul-first {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }  
+
+#second-main {
+    text-align: center;
+    background-color: rgb(241, 177, 57);
+    border-style: inset;
+    border-width: 6px;
+    border-left: 6px solid orangered;
+}
+
+.foto-4{
+    width: 40%;
+}
+
+#footer {
+    background-color: rgb(228, 224, 224);
 }
